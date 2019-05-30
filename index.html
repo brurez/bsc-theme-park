@@ -10,100 +10,110 @@
     <meta name="author" content="W27 Bsc. Computer Science Team" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home page - My theme park</title>
+
+    <link rel="stylesheet" href="/style.css" />
   </head>
 
   <body>
-    <!-- top -->
+    <div class="container">
+      <!-- top -->
 
-    <header>
-      <h1>My theme park</h1>
-      <button>Sign in / sign up</button>
-    </header>
-    <nav>
-      <a href="/">Home page</a> | <a href="/shop.html">Shop</a> |
-      <a href="/institucional.html">Institucional</a>
-    </nav>
+      <header class="page-top">
+        <h1>My theme park</h1>
+        <button>Sign in / sign up</button>
+      </header>
+      <nav class="navigation-bar space">
+        <a href="/">Home page</a> | <a href="/shop.html">Shop</a> |
+        <a href="/institucional.html">Institucional</a>
+      </nav>
 
-    <!-- main attraction slider -->
+      <!-- main attraction slider -->
 
-    <section>
-      <img
-        width="600"
-        src="http://jrrny.com/wp-content/uploads/journeys/Amna/0097892644cb9ce22d1063d4381fed1c.jpg"
-        alt="Rollercoster atraction"
-      />
-    </section>
-
-    <!-- deals -->
-
-    <section>
-      <article>
+      <section class="main-attraction">
         <img
-          width="100"
-          height="80"
-          src="https://www.balinale.com/wp-content/uploads/2018/08/tickets.jpg"
-          alt="Tickets"
+          width="600"
+          src="http://jrrny.com/wp-content/uploads/journeys/Amna/0097892644cb9ce22d1063d4381fed1c.jpg"
+          alt="Rollercoster atraction"
         />
-        <h2>3 day pass ticket</h2>
-        <p>
-          Have a create discount by buying our 3 day pass ticket. You don't have
-          to use them in a row. It's up to you when you will use it!
-        </p>
-        <p>$99.90 <button>Buy</button></p>
-      </article>
-      <article>
-        <img
-          width="100"
-          height="80"
-          src="https://images.trvl-media.com/hotels/6000000/5430000/5426600/5426529/ec230f6b_z.jpg"
-          alt="Tickets"
-        />
-        <h2>Hotel / transportation bundle</h2>
-        <p>
-          Don't worry about were to stay and how to get here. By buying this
-          service bundle, you will have all your acomodations and transportation
-          dealt by us.
-        </p>
-        <p>$919.50 <button>Buy</button></p>
-      </article>
-    </section>
+      </section>
 
-    <!-- upcomming events -->
+      <!-- deals -->
 
-    <section>
-      <h2>Upcomming events</h2>
-      <ul>
-        <li>
-          <h3>12/22 - Santa's parade</h3>
-          <p>A magical moment to share with your kids.</p>
-        </li>
-        <li>
-          <h3>01/13 - Death from above inauguration</h3>
-          <p>Be one of the first to ride our new rollercoster.</p>
-        </li>
-      </ul>
-      <img width="260" src="/calendar.png" alt="Events calendar" />
-    </section>
+      <section class="deals">
+        <article class="space">
+          <img
+            width="100"
+            height="80"
+            src="https://www.balinale.com/wp-content/uploads/2018/08/tickets.jpg"
+            alt="Tickets"
+          />
+          <div class="middle-column">
+            <h2>3 day pass ticket</h2>
+            <p>
+              Have a create discount by buying our 3 day pass ticket. You don't
+              have to use them in a row. It's up to you when you will use it!
+            </p>
+          </div>
+          <p>$99.90 <button>Buy</button></p>
+        </article>
+        <article class="space">
+          <img
+            width="100"
+            height="80"
+            src="https://images.trvl-media.com/hotels/6000000/5430000/5426600/5426529/ec230f6b_z.jpg"
+            alt="Tickets"
+          />
+          <div class="middle-column">
+            <h2>Hotel / transportation bundle</h2>
+            <p>
+              Don't worry about were to stay and how to get here. By buying this
+              service bundle, you will have all your acomodations and
+              transportation dealt by us.
+            </p>
+          </div>
+          <p>$919.50 <button>Buy</button></p>
+        </article>
+      </section>
 
-    <!-- footer -->
+      <!-- upcomming events -->
 
-    <footer>
-      <div>
-        <img
-          width="100"
-          height="100"
-          src="https://www.themeparktourist.com/images/TPT%20logo.png"
-          alt="Theme park logo"
-        />
-      </div>
-      <div>
-        <h2>Sitemap</h2>
-        <ul>
-          <li><a href="/">Home page</a></li>
-          <li><a href="/shop.html">Shop</a></li>
-          <li><a href="/institucional.html">Institucional</a></li>
-        </ul>
-      </div>
-    </footer>
+      <section class="upcomming-events space">
+        <div>
+          <h2>Upcomming events</h2>
+          <ul>
+            <li>
+              <h3>12/22 - Santa's parade</h3>
+              <p>A magical moment to share with your kids.</p>
+            </li>
+            <li>
+              <h3>01/13 - Death from above inauguration</h3>
+              <p>Be one of the first to ride our new rollercoster.</p>
+            </li>
+          </ul>
+        </div>
+        <img width="260" src="/images/calendar.png" alt="Events calendar" />
+      </section>
+
+      <!-- footer -->
+
+      <footer class="page-footer space">
+        <div>
+          <img
+            width="100"
+            height="100"
+            src="https://www.themeparktourist.com/images/TPT%20logo.png"
+            alt="Theme park logo"
+          />
+        </div>
+        <div>
+          <h2>Sitemap</h2>
+          <ul>
+            <li><a href="/">Home page</a></li>
+            <li><a href="/shop.html">Shop</a></li>
+            <li><a href="/institucional.html">Institucional</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

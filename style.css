@@ -1,0 +1,118 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+p,
+a,
+button {
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgreen !important;
+  color: black !important;
+}
+
+a:hover {
+  color: black;
+}
+
+body {
+  background-color: gray;
+}
+
+h1 {
+  color: darkslateblue;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  background: none;
+  border: 2px solid darkslateblue;
+  padding: 6px;
+}
+
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 16px 18px;
+}
+
+.page-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.space {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-bar {
+  background-color: lightgreen;
+  padding: 6px 10%;
+  margin-bottom: 24px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.navigation-bar a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.main-attraction > img {
+  width: 100%;
+}
+
+.deals,
+.upcomming-events {
+  background-color: darkslateblue;
+  color: white;
+  border: 16px solid lightgreen;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.deals .middle-column {
+  margin: 0 16px;
+}
+
+.deals button {
+  width: 100%;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+}
+
+.upcomming-events > div {
+  padding: 0 16px;
+}
+
+.page-footer {
+  background-color: white;
+  border: 16px solid darkslateblue;
+  padding: 0 16px;
+  margin-top: 16px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
