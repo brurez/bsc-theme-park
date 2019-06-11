@@ -116,3 +116,115 @@ button {
   margin-top: 16px;
   box-shadow: 2px 2px 2px lightgrey;
 }
+
+ /* institutional page */
+
+.JobBoard > img{
+    width: 100%;
+    align-content: center
+    
+     }
+
+.JobBoard {  
+    background-color: MidnightBlue;
+    color: white;
+    border: 16px solid MediumTurquoise;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+.jobAdvert{
+    background-color: MidnightBlue;
+    color: white;
+    border: 16px solid MediumTurquoise;
+  
+}
+
+.jobAdvert button {
+  width: 50%;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  
+}
+
+.jobAdvert2{
+    background-color: MidnightBlue;
+    color: white;
+    border: 16px solid MediumTurquoise;
+    
+}
+
+.jobAdvert2 button {
+  width: 50%;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+ 
+}
+
+.tandC{
+    background-color: MidnightBlue;
+    color: white;
+    border: 16px solid MediumTurquoise;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+.businessInformtion{
+    background-color: MidnightBlue;
+    text-align: center;
+    color: white;
+    border: 16px solid MediumTurquoise;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+ /* Shop page */
+
+.ticketSales{
+    background-color: darkslateblue;
+    color: white;
+    border: 16px solid GreenYellow;
+    box-shadow: 2px 2px 2px lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.ticketSales button {
+  font-weight: bold;
+  background-color: red;
+  color: white;
+}
+
+.dayVisit {
+    background-color: darkslateblue;
+    color: white;
+    border: 16px solid GreenYellow;
+    box-shadow: 2px 2px 2px lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.bundles{
+    background-color: darkslateblue;
+    color: white;
+    border: 16px solid GreenYellow;
+    box-shadow: 2px 2px 2px lightgrey;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.bundles button {
+  font-weight: bold;
+  background-color: red;
+  color: white;
+}
+
+.merchandise{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    color: white;
+    border: 16px solid GreenYellow;
+    box-shadow: 2px 2px 2px lightgrey;
+}
