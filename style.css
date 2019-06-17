@@ -54,7 +54,7 @@ button {
   box-shadow: 0px 2px 5px 2px #232222;
 }
 
-.page-top {
+.pageTop {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,32 +66,32 @@ button {
   justify-content: space-between;
 }
 
-.navigation-bar {
+.navigationBar {
   background-color: lightgreen;
   padding: 6px 10%;
   margin-bottom: 24px;
   box-shadow: 2px 2px 2px lightgrey;
 }
 
-.navigation-bar a {
+.navigationBar a {
   font-size: 18px;
   text-decoration: none;
 }
 
-.main-attraction {
+.mainAttraction {
   overflow: hidden;
   height: 400px;
 }
 
-.main-attraction > img {
-  animation: slider-animation 40s infinite alternate 1s;
+.mainAttraction > img {
+  animation: mainAttractionAnimation 40s infinite alternate 1s;
   position: relative;
   right: 600px;
   top: 0;
   width: 1500px;
 }
 
-@keyframes slider-animation {
+@keyframes mainAttractionAnimation {
   from {
     transform: translate(0px, 0px) scale(1);
   }
@@ -102,7 +102,7 @@ button {
 }
 
 .deals,
-.upcomming-events {
+.upcommingEvents {
   background-color: darkslateblue;
   color: white;
   border: 16px solid lightgreen;
@@ -114,7 +114,7 @@ button {
   font-size: 1.2em;
 }
 
-.deals .middle-column {
+.deals .middleColumn {
   margin: 0 16px;
 }
 
@@ -125,11 +125,11 @@ button {
   color: white;
 }
 
-.upcomming-events > div {
+.upcommingEvents > div {
   padding: 0 16px;
 }
 
-.page-footer {
+.pageFooter {
   background-color: white;
   border: 16px solid darkslateblue;
   padding: 0 16px;
