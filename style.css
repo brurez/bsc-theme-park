@@ -142,25 +142,23 @@ button {
   box-shadow: 2px 2px 2px lightgrey;
 }
 
- /* institutional page */
+/* institutional page */
 
-.JobBoard > img{
-    width: 100%;
-    align-content: center
-    
-     }
-
-.JobBoard {  
-    background-color: MidnightBlue;
-    color: white;
-    border: 16px solid MediumTurquoise;
-    box-shadow: 2px 2px 2px lightgrey;
+.JobBoard > img {
+  width: 100%;
+  align-content: center;
 }
-.jobAdvert{
-    background-color: MidnightBlue;
-    color: white;
-    border: 16px solid MediumTurquoise;
-  
+
+.JobBoard {
+  background-color: MidnightBlue;
+  color: white;
+  border: 16px solid MediumTurquoise;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+.jobAdvert {
+  background-color: MidnightBlue;
+  color: white;
+  border: 16px solid MediumTurquoise;
 }
 
 .jobAdvert button {
@@ -168,14 +166,12 @@ button {
   font-weight: bold;
   background-color: red;
   color: white;
-  
 }
 
-.jobAdvert2{
-    background-color: MidnightBlue;
-    color: white;
-    border: 16px solid MediumTurquoise;
-    
+.jobAdvert2 {
+  background-color: MidnightBlue;
+  color: white;
+  border: 16px solid MediumTurquoise;
 }
 
 .jobAdvert2 button {
@@ -183,73 +179,56 @@ button {
   font-weight: bold;
   background-color: red;
   color: white;
- 
 }
 
-.tandC{
-    background-color: MidnightBlue;
-    color: white;
-    border: 16px solid MediumTurquoise;
-    box-shadow: 2px 2px 2px lightgrey;
+.tandC {
+  background-color: MidnightBlue;
+  color: white;
+  border: 16px solid MediumTurquoise;
+  box-shadow: 2px 2px 2px lightgrey;
 }
 
-.businessInformtion{
-    background-color: MidnightBlue;
-    text-align: center;
-    color: white;
-    border: 16px solid MediumTurquoise;
-    box-shadow: 2px 2px 2px lightgrey;
+.businessInformtion {
+  background-color: MidnightBlue;
+  text-align: center;
+  color: white;
+  border: 16px solid MediumTurquoise;
+  box-shadow: 2px 2px 2px lightgrey;
 }
 
- /* Shop page */
+/* Shop page */
 
-.ticketSales{
-    background-color: darkslateblue;
-    color: white;
-    border: 16px solid GreenYellow;
-    box-shadow: 2px 2px 2px lightgrey;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;    
+.squares {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.ticketSales button {
-  font-weight: bold;
-  background-color: red;
+.square {
+  flex-grow: 1;
+  flex-basis: 300px;
+  padding: 0 8px;
+  border: 16px solid lightgreen;
+  box-shadow: 2px 2px 2px lightgrey;
+  background-color: darkslateblue;
   color: white;
 }
 
-.dayVisit {
-    background-color: darkslateblue;
-    color: white;
-    border: 16px solid GreenYellow;
-    box-shadow: 2px 2px 2px lightgrey;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
- }
-
-.bundles{
-    background-color: darkslateblue;
-    color: white;
-    border: 16px solid GreenYellow;
-    box-shadow: 2px 2px 2px lightgrey;
-    align-content: center;
-    justify-content: space-between;
+.squares > *:nth-child(odd) {
+  border-right: none;
 }
 
-.bundles button {
+.squares > *:nth-child(3), .squares > *:nth-child(4) {
+  border-top: none;
+}
+
+.ticketSales .middleColumn, .bundles .middleColumn {
+  padding: 0 16px;
+  flex-grow: 2;
+  text-align: end;
+}
+
+.squares button {
   font-weight: bold;
   background-color: red;
   color: white;
-}
-
-.merchandise{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: darkslateblue;
-    color: white;
-    border: 16px solid GreenYellow;
-    box-shadow: 2px 2px 2px lightgrey;
 }
