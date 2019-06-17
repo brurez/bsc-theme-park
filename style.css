@@ -51,6 +51,7 @@ button {
   margin: 0 auto;
   background-color: white;
   padding: 0 16px 18px;
+  box-shadow: 0px 2px 5px 2px #232222;
 }
 
 .page-top {
@@ -77,8 +78,27 @@ button {
   text-decoration: none;
 }
 
+.main-attraction {
+  overflow: hidden;
+  height: 400px;
+}
+
 .main-attraction > img {
-  width: 100%;
+  animation: slider-animation 40s infinite alternate 1s;
+  position: relative;
+  right: 600px;
+  top: 0;
+  width: 1500px;
+}
+
+@keyframes slider-animation {
+  from {
+    transform: translate(0px, 0px) scale(1);
+  }
+
+  to {
+    transform: translate(300px, -250px) scale(0.6);
+  }
 }
 
 .deals,
