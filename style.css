@@ -102,6 +102,14 @@ button {
   }
 }
 
+.dealsTitle {
+  padding: 0 16px;
+}
+
+.dealsTitle h2 {
+  margin-bottom: 0;
+}
+
 .deals,
 .upcommingEvents {
   background-color: darkslateblue;
@@ -124,14 +132,28 @@ button {
 }
 
 .deals button {
-  width: 100%;
   font-weight: bold;
   background-color: red;
   color: white;
+  width: 80px;
+}
+
+.deals article {
+  padding-right: 6px;
+}
+
+.price {
+  display: inline-block;
+  font-size: 1.2em;
+  margin-bottom: 6px;
 }
 
 .upcommingEvents > div {
   padding: 0 16px;
+}
+
+.upcommingEvents > img {
+  border: 10px solid black;
 }
 
 .pageFooter {
@@ -140,6 +162,32 @@ button {
   padding: 0 16px;
   margin-top: 16px;
   box-shadow: 2px 2px 2px lightgrey;
+}
+
+.footerBox {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 16px 0;
+  padding: 0 16px;
+}
+
+.footerBox li {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-right: 6px;
+  padding: 6px 16px;
+  display: inline-block;
+  border-radius: 16px;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.squares li {
+  margin-top: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  padding: 6px;
 }
 
 /* institutional page */

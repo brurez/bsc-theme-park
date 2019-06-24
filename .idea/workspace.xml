@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51ce734a-68e5-4598-b917-b65c4c84d703" name="Default Changelist" comment="Fixes bundle image">
+    <list default="true" id="51ce734a-68e5-4598-b917-b65c4c84d703" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Join the team.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/institucional.html" beforeDir="false" afterPath="$PROJECT_DIR$/institucional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,17 +22,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="253">
+              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/institucional.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="360">
+              <caret line="33" column="12" lean-forward="true" selection-end-line="133" />
             </state>
           </provider>
         </entry>
@@ -48,17 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+            <state relative-caret-position="240">
+              <caret line="52" lean-forward="true" selection-end-line="128" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="178" column="1" lean-forward="true" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+            <state relative-caret-position="373">
+              <caret line="155" column="26" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -84,10 +85,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/shop.html" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/institucional.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -185,7 +186,7 @@
       <workItem from="1560262700396" duration="963000" />
       <workItem from="1560781255649" duration="4140000" />
       <workItem from="1561132390844" duration="3513000" />
-      <workItem from="1561410175566" duration="1758000" />
+      <workItem from="1561410175566" duration="5919000" />
     </task>
     <task id="LOCAL-00001" summary="Adds institucional and shop styling">
       <created>1560262872690</created>
@@ -215,11 +216,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560982583902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Small institucional corrections">
+      <created>1561412688720</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561412688720</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23103000" />
+    <option name="totallyTimeSpent" value="27264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1920" height="1117" extended-state="6" />
@@ -253,30 +261,10 @@
     <MESSAGE value="Adds animation to main attraction" />
     <MESSAGE value="Rename css styles to use camel case" />
     <MESSAGE value="Fixes bundle image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes bundle image" />
+    <MESSAGE value="Small institucional corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small institucional corrections" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="178" column="1" lean-forward="true" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -286,8 +274,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/institucional.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="360">
+          <caret line="33" column="12" lean-forward="true" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="52" lean-forward="true" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="155" column="26" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
         </state>
       </provider>
     </entry>
