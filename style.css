@@ -102,6 +102,14 @@ button {
   }
 }
 
+.dealsTitle {
+  padding: 0 16px;
+}
+
+.dealsTitle h2 {
+  margin-bottom: 0;
+}
+
 .deals,
 .upcommingEvents {
   background-color: darkslateblue;
@@ -124,14 +132,28 @@ button {
 }
 
 .deals button {
-  width: 100%;
   font-weight: bold;
   background-color: red;
   color: white;
+  width: 80px;
+}
+
+.deals article {
+  padding-right: 6px;
+}
+
+.price {
+  display: inline-block;
+  font-size: 1.2em;
+  margin-bottom: 6px;
 }
 
 .upcommingEvents > div {
   padding: 0 16px;
+}
+
+.upcommingEvents > img {
+  border: 10px solid black;
 }
 
 .pageFooter {
@@ -142,57 +164,105 @@ button {
   box-shadow: 2px 2px 2px lightgrey;
 }
 
+.footerBox {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 16px 0;
+  padding: 0 16px;
+}
+
+.footerBox li {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-right: 6px;
+  padding: 6px 16px;
+  display: inline-block;
+  border-radius: 16px;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.squares li {
+  margin-top: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  padding: 6px;
+}
+
 /* institutional page */
 
-.JobBoard > img {
+.jobBoard > img {
   width: 100%;
   align-content: center;
 }
 
-.JobBoard {
-  background-color: MidnightBlue;
+.jobBoard {
+  background-color: darkslateblue;
   color: white;
-  border: 16px solid MediumTurquoise;
   box-shadow: 2px 2px 2px lightgrey;
 }
-.jobAdvert {
-  background-color: MidnightBlue;
-  color: white;
-  border: 16px solid MediumTurquoise;
+
+.jobBoard h2 {
+  padding: 0 16px;
 }
 
-.jobAdvert button {
-  width: 50%;
+.jobAdvert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkslateblue;
+  color: white;
+  border: 16px solid lightgreen;
+  border-bottom: none;
+  padding-left: 16px;
+}
+
+.jobBoard button {
+  width: 150px;
   font-weight: bold;
   background-color: red;
   color: white;
+  display: block;
 }
 
 .jobAdvert2 {
-  background-color: MidnightBlue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkslateblue;
   color: white;
-  border: 16px solid MediumTurquoise;
+  border: 16px solid lightgreen;
+  border-bottom: none;
+  padding-left: 16px;
 }
 
-.jobAdvert2 button {
-  width: 50%;
-  font-weight: bold;
-  background-color: red;
-  color: white;
+.jobBoard .middleColumn{
+    margin: 16px;
+    width: 80%;
+}
+
+.BusinessInformation{
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .tandC {
-  background-color: MidnightBlue;
+  background-color: darkslateblue;
   color: white;
-  border: 16px solid MediumTurquoise;
+  text-align: center;
+  width: 50%;
+  border: 16px solid lightgreen;
   box-shadow: 2px 2px 2px lightgrey;
 }
 
 .businessInformtion {
-  background-color: MidnightBlue;
+  background-color: darkslateblue;
   text-align: center;
   color: white;
-  border: 16px solid MediumTurquoise;
+  width: 50%;
+  border: 16px solid lightgreen;
   box-shadow: 2px 2px 2px lightgrey;
 }
 
